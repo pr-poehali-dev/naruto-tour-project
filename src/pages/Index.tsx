@@ -11,12 +11,12 @@ const Index = () => {
         <div className="container mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img 
-              src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/05aad210-d15a-4a99-8455-cd48817af582.jpg" 
-              alt="Наруто логотип"
+              src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/f6e8ec5d-14f7-497a-bf69-2d99142f26ed.jpg" 
+              alt="Japan логотип"
               className="w-12 h-12 rounded-full object-cover ring-2 ring-primary shadow-md"
             />
             <div>
-              <h1 className="text-3xl font-bold text-background tracking-tight">НАРУТО</h1>
+              <h1 className="text-3xl font-bold text-background tracking-tight">JAPAN : ДА!</h1>
               <p className="text-xs text-background/70 tracking-widest uppercase">Экскурсионное бюро</p>
             </div>
           </div>
