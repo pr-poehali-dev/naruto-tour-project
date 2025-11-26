@@ -122,28 +122,28 @@ const Index = () => {
             Наше путешествие — это и есть ваш личный Мити. Путь, состоящий из четырёх свитков, где вы не просто увидите Японию, а пройдете через её сердце, стихии и дух, чтобы обрести новый взгляд на мир и на себя.
           </p>
 
-          <div className="space-y-8 max-w-5xl mx-auto">
+          <div className="space-y-6 max-w-4xl mx-auto">
             <div className="relative">
-              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
                 <div 
-                  className="absolute inset-0 bg-cover bg-center opacity-20"
+                  className="absolute inset-0 bg-cover bg-center opacity-30"
                   style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/9aa43c59-344a-4bf6-87f3-76447ea8d652.jpg)' }}
                 ></div>
-                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex items-start gap-6 relative z-10">
+                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex flex-col md:flex-row items-start gap-4 relative z-10">
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-4xl font-bold text-primary">一</span>
+                    <div className="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-2xl md:text-3xl font-bold text-primary">一</span>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-3xl font-bold mb-2 text-primary">Свиток Первый: ЭНЕРГИЯ</h3>
-                    <p className="text-xl font-semibold mb-4 text-foreground">Лабиринты, где рождается завтра</p>
-                    <p className="text-base text-muted-foreground mb-2 italic">(Токио & Осака)</p>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl md:text-2xl font-bold mb-1 text-primary">Свиток Первый: ЭНЕРГИЯ</h3>
+                    <p className="text-base md:text-lg font-semibold mb-2 text-foreground">Лабиринты, где рождается завтра</p>
+                    <p className="text-sm md:text-base text-muted-foreground mb-2 italic">(Токио & Осака)</p>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                       Первый ключ — это смелость принять будущее. Вы не просто увидите неоновые каньоны Токио и бьющую через край жизненную силу Осаки — вы научитесь слышать их ритм и находить тишину в самом сердце этого гула. Мы проведём вас по следам создателей современной Японии: от секретных баров в небоскребах, где заключаются многомиллионные сделки, до аутентичных закусочных в подворотнях Дотонбори, где рождаются новые гастрономические тренды. Это посвящение в дерзость и искусство понимать страну через пульс её самых динамичных городов.
                     </p>
                   </div>
@@ -152,26 +152,26 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
                 <div 
-                  className="absolute inset-0 bg-cover bg-center opacity-20"
+                  className="absolute inset-0 bg-cover bg-center opacity-30"
                   style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/5024cc90-00bd-410b-aa16-09f103714bda.jpg)' }}
                 ></div>
-                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex items-start gap-6 relative z-10">
+                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex flex-col md:flex-row items-start gap-4 relative z-10">
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-4xl font-bold text-primary">二</span>
+                    <div className="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-2xl md:text-3xl font-bold text-primary">二</span>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-3xl font-bold mb-2 text-primary">Свиток Второй: СЕРДЦЕ</h3>
-                    <p className="text-xl font-semibold mb-4 text-foreground">Шёпот храмов и безмолвный поклон оленей</p>
-                    <p className="text-base text-muted-foreground mb-2 italic">(Киото & Нара)</p>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl md:text-2xl font-bold mb-1 text-primary">Свиток Второй: СЕРДЦЕ</h3>
+                    <p className="text-base md:text-lg font-semibold mb-2 text-foreground">Шёпот храмов и безмолвный поклон оленей</p>
+                    <p className="text-sm md:text-base text-muted-foreground mb-2 italic">(Киото & Нара)</p>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                       Второй ключ — это встреча с душой древней Японии. В Киото, за высокими стенами, тень от сосны на стене чайного домика расскажет вам больше, чем целая книга. Вы станете гостем на частной церемонии у мастера, чья семья хранит это искусство веками. А в Наре вас ждёт диалог с самим временем — в парке Касуга, где священные олени, словно хранители этого места, почтительно склоняют головы в немом поклоне, принимая угощение. Это посвящение в благоговение, где вы поймёте, что истинная красота — в безмолвном диалоге между человеком, природой и вечностью.
                     </p>
                   </div>
@@ -180,20 +180,20 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex items-start gap-6">
+              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex flex-col md:flex-row items-start gap-4 relative z-10">
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-4xl font-bold text-primary">三</span>
+                    <div className="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-2xl md:text-3xl font-bold text-primary">三</span>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-3xl font-bold mb-4 text-primary">Третий свиток: Дух</h3>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl md:text-2xl font-bold mb-1 text-primary">Третий свиток: Дух</h3>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                       Традиции, которым тысячи лет: чайная церемония, встреча с гейшами в Гионе, мастер-классы каллиграфии, икебаны. Вы узнаете, что такое «моно-но аварэ» — печальное очарование вещей. Здесь раскрывается суть японской эстетики: красота мимолётна, именно поэтому она бесценна.
                     </p>
                   </div>
@@ -202,20 +202,20 @@ const Index = () => {
             </div>
 
             <div className="relative">
-              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex items-start gap-6">
+              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex flex-col md:flex-row items-start gap-4 relative z-10">
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-4xl font-bold text-primary">四</span>
+                    <div className="w-14 h-14 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-2xl md:text-3xl font-bold text-primary">四</span>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-3xl font-bold mb-4 text-primary">Четвёртый свиток: Возвращение</h3>
-                    <p className="text-lg text-muted-foreground leading-relaxed">
+                    <h3 className="text-xl md:text-2xl font-bold mb-1 text-primary">Четвёртый свиток: Возвращение</h3>
+                    <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                       Последние дни в Японии — это не конец, а начало. Вы возвращаетесь домой другим человеком. С новым взглядом на время, пространство, красоту и смысл. Япония остаётся с вами навсегда — в воспоминаниях, в привычках, в том, как вы смотрите на закат или наливаете чай. Ваш личный Мити продолжается.
                     </p>
                   </div>
