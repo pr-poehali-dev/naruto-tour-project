@@ -114,7 +114,7 @@ const Index = () => {
       <section id="path" className="py-20 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-7xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
-            Ваш Путь
+            <span style={{ fontFamily: 'Cormorant, serif' }}>Мити</span> <span className="text-6xl md:text-7xl" style={{ fontFamily: 'serif' }}>道</span> — это Путь
           </h2>
           <p className="text-center text-muted-foreground mb-16 text-lg max-w-3xl mx-auto">
             Каждое путешествие начинается с решения. Каждый шаг ведёт к открытию.
