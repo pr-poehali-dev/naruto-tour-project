@@ -127,18 +127,24 @@ const Index = () => {
               <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
               <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
               <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div 
+                  className="absolute inset-0 bg-cover bg-center opacity-10"
+                  style={{ backgroundImage: 'url(https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/9aa43c59-344a-4bf6-87f3-76447ea8d652.jpg)' }}
+                ></div>
                 <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex items-start gap-6">
+                <div className="flex items-start gap-6 relative z-10">
                   <div className="flex-shrink-0">
                     <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
                       <span className="text-4xl font-bold text-primary">一</span>
                     </div>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-3xl font-bold mb-4 text-primary">Первый свиток: Сердце</h3>
+                    <h3 className="text-3xl font-bold mb-2 text-primary">Свиток Первый: ЭНЕРГИЯ</h3>
+                    <p className="text-xl font-semibold mb-4 text-foreground">Лабиринты, где рождается завтра</p>
+                    <p className="text-base text-muted-foreground mb-2 italic">(Токио & Осака)</p>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Токио и Киото. Пульс современности и эхо вечности. Вы пройдёте от неоновых джунглей Сибуя до тихих храмов Фусими Инари, от небоскрёбов до бамбуковых рощ Арасияма. Здесь начинается ваше понимание дуальности Японии — страны, где будущее и прошлое танцуют в одном ритме.
+                      Первый ключ — это смелость принять будущее. Вы не просто увидите неоновые каньоны Токио и бьющую через край жизненную силу Осаки — вы научитесь слышать их ритм и находить тишину в самом сердце этого гула. Мы проведём вас по следам создателей современной Японии: от секретных баров в небоскребах, где заключаются многомиллионные сделки, до аутентичных закусочных в подворотнях Дотонбори, где рождаются новые гастрономические тренды. Это посвящение в дерзость и искусство понимать страну через пульс её самых динамичных городов.
                     </p>
                   </div>
                 </div>
