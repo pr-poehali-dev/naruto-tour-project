@@ -111,7 +111,54 @@ const Index = () => {
         </div>
       </section>
 
+      <section id="path" className="py-20 px-4 bg-secondary/30">
+        <div className="container mx-auto max-w-7xl">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-foreground">
+            Ваш Путь
+          </h2>
+          <p className="text-center text-muted-foreground mb-16 text-lg max-w-3xl mx-auto">
+            Каждое путешествие начинается с решения. Каждый шаг ведёт к открытию.
+          </p>
 
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-4xl font-bold text-primary">1</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Выбор</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Вы говорите «ДА» Японии. Связываетесь с нами, делитесь мечтами и ожиданиями. Мы слушаем и понимаем.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-4xl font-bold text-primary">2</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Подготовка</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  Даниэль лично составляет маршрут. Не по шаблону, а под вас. Каждый день — история, каждый момент — смысл.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center">
+              <CardContent className="p-8">
+                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
+                  <span className="text-4xl font-bold text-primary">3</span>
+                </div>
+                <h3 className="text-2xl font-bold mb-4">Путешествие</h3>
+                <p className="text-muted-foreground leading-relaxed">
+                  14 дней в Японии. Вы не просто смотрите — вы чувствуете, понимаете, становитесь частью этого мира.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
 
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
