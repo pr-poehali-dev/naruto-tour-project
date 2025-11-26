@@ -63,6 +63,17 @@ const Index = () => {
       </section>
 
       <section id="about" className="py-20 px-4 relative overflow-hidden">
+        <div className="absolute top-0 left-0 right-0 h-32 opacity-20 pointer-events-none">
+          <div className="absolute top-0 left-10 text-7xl animate-fade-in">🌸</div>
+          <div className="absolute top-4 left-28 text-5xl animate-fade-in" style={{ animationDelay: '0.2s' }}>🍁</div>
+          <div className="absolute top-2 left-48 text-6xl animate-fade-in" style={{ animationDelay: '0.4s' }}>🌸</div>
+          <div className="absolute top-0 right-12 text-8xl animate-fade-in" style={{ animationDelay: '0.1s' }}>🍂</div>
+          <div className="absolute top-5 right-32 text-6xl animate-fade-in" style={{ animationDelay: '0.3s' }}>🌸</div>
+          <div className="absolute top-3 right-52 text-7xl animate-fade-in" style={{ animationDelay: '0.5s' }}>🍁</div>
+          <div className="absolute top-6 left-1/3 text-5xl animate-fade-in" style={{ animationDelay: '0.6s' }}>🍂</div>
+          <div className="absolute top-1 right-1/3 text-6xl animate-fade-in" style={{ animationDelay: '0.7s' }}>🌸</div>
+        </div>
+        
         <div className="absolute bottom-0 left-0 right-0 h-32 opacity-20 pointer-events-none">
           <div className="absolute bottom-0 left-0 text-8xl animate-fade-in">🌸</div>
           <div className="absolute bottom-2 left-16 text-6xl animate-fade-in" style={{ animationDelay: '0.2s' }}>🌸</div>
