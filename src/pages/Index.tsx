@@ -122,42 +122,94 @@ const Index = () => {
             Наше путешествие — это и есть ваш личный Мити. Путь, состоящий из четырёх свитков, где вы не просто увидите Японию, а пройдете через её сердце, стихии и дух, чтобы обрести новый взгляд на мир и на себя.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold text-primary">1</span>
+          <div className="space-y-8 max-w-5xl mx-auto">
+            <div className="relative">
+              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-4xl font-bold text-primary">一</span>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-3xl font-bold mb-4 text-primary">Первый свиток: Сердце</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Токио и Киото. Пульс современности и эхо вечности. Вы пройдёте от неоновых джунглей Сибуя до тихих храмов Фусими Инари, от небоскрёбов до бамбуковых рощ Арасияма. Здесь начинается ваше понимание дуальности Японии — страны, где будущее и прошлое танцуют в одном ритме.
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Выбор</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Вы говорите «ДА» Японии. Связываетесь с нами, делитесь мечтами и ожиданиями. Мы слушаем и понимаем.
-                </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold text-primary">2</span>
+            <div className="relative">
+              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-4xl font-bold text-primary">二</span>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-3xl font-bold mb-4 text-primary">Второй свиток: Стихии</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Священная гора Фудзи, горячие источники онсэн, сады камней и водопады. Вы почувствуете, как японцы научились слушать природу и жить в гармонии с её силами. Вода, огонь, земля, ветер — всё это станет частью вашего опыта. Здесь вы поймёте, что такое «ма» — пустота, которая наполняет смыслом.
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Подготовка</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Даниэль лично составляет маршрут. Не по шаблону, а под вас. Каждый день — история, каждый момент — смысл.
-                </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
-            <Card className="text-center">
-              <CardContent className="p-8">
-                <div className="w-20 h-20 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold text-primary">3</span>
+            <div className="relative">
+              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-4xl font-bold text-primary">三</span>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-3xl font-bold mb-4 text-primary">Третий свиток: Дух</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Традиции, которым тысячи лет: чайная церемония, встреча с гейшами в Гионе, мастер-классы каллиграфии, икебаны. Вы узнаете, что такое «моно-но аварэ» — печальное очарование вещей. Здесь раскрывается суть японской эстетики: красота мимолётна, именно поэтому она бесценна.
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-4">Путешествие</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  14 дней в Японии. Вы не просто смотрите — вы чувствуете, понимаете, становитесь частью этого мира.
-                </p>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="absolute -left-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="absolute -right-4 top-0 bottom-0 w-2 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
+              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-4 border-accent/30 rounded-lg shadow-2xl p-8 md:p-12 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
+                      <span className="text-4xl font-bold text-primary">四</span>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-3xl font-bold mb-4 text-primary">Четвёртый свиток: Возвращение</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Последние дни в Японии — это не конец, а начало. Вы возвращаетесь домой другим человеком. С новым взглядом на время, пространство, красоту и смысл. Япония остаётся с вами навсегда — в воспоминаниях, в привычках, в том, как вы смотрите на закат или наливаете чай. Ваш личный Мити продолжается.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
