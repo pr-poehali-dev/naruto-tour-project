@@ -62,27 +62,24 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                О нас
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground leading-tight">
+                Japan: ДА — это не просто путешествие.<br/>Это ответ.
               </h2>
               <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
-                Экскурсионное бюро «Наруто» — это 25 лет опыта на международном рынке. 
-                Основатель проекта Дани Pro — специалист по странам Азии и Востока, от марокканских мотивов до японского архипелага.
+                Ответ на зов безмолвных садов камней и шумных неоновых перекрёстков. На вопрос, который ваше сердце задавало Японии всю жизнь.
+              </p>
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                <strong className="text-foreground">За этим ответом стоит имя — Даниэль.</strong>
+              </p>
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                25 лет — это не просто стаж. Это целая жизнь, прожитая в ритме Японии. Это тысячи улочек, пройденных не как турист, а как искатель. Это сотни встреч, десятки тысяч историй, вплетённых в одно грандиозное полотно под названием «Путь». Путь, который начинается с простого слова — «ДА».
+              </p>
+              <p className="text-lg text-muted-foreground mb-4 leading-relaxed">
+                Слово «ДА» стало нашим ключом. Ключом к потаённым дверям, за которыми скрывается подлинная Япония. К тем местам, куда не ступает нога обычного туриста. К тем людям, чьи руки хранят многовековые традиции гончарного искусства, каллиграфии и чайной церемонии. К тем моментам тишины и понимания, которые меняют тебя навсегда.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Мы — международная команда профессионалов, работающая на многих языках. 
-                Наша философия — показать настоящую Японию во всём её многообразии.
+                Наш проект давно перестал быть просто «бюро». Для наших друзей из Европы и Азии он стал проводником в мир, где прошлое и будущее говорят на одном языке. А в последние годы мы стали живым мостом — тонким и прочным, как шёлковая нить — который связывает сердца путешественников из России с загадочной душой Японии.
               </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center p-6 bg-secondary rounded-lg">
-                  <div className="text-4xl font-bold text-primary mb-2">25</div>
-                  <div className="text-sm text-muted-foreground">Лет опыта</div>
-                </div>
-                <div className="text-center p-6 bg-secondary rounded-lg">
-                  <div className="text-4xl font-bold text-primary mb-2">15+</div>
-                  <div className="text-sm text-muted-foreground">Языков команды</div>
-                </div>
-              </div>
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl animate-scale-in">
               <img 
