@@ -43,9 +43,7 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 text-center text-white px-4 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
-            Откройте для себя Японию
-          </h1>
+          <h1 className="md:text-7xl font-bold mb-6 drop-shadow-lg text-5xl">Япония. Выше шума, глубже традиций.</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
             Авторское путешествие в страну восходящего солнца, где каждый день — это гармония величественных храмов и неоновых мегаполисов, тишины бамбуковых рощ и энергии токийских улиц, вкуса настоящего саке и красок японских садов
           </p>
