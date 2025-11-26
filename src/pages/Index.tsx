@@ -43,8 +43,8 @@ const Index = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">
             Откройте для себя Японию
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto drop-shadow-md">
-            Эксклюзивные туры в страну восходящего солнца. Погрузитесь в древние традиции и современную культуру
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md leading-relaxed">
+            Авторское путешествие в страну восходящего солнца, где каждый день — это гармония величественных храмов и неоновых мегаполисов, тишины бамбуковых рощ и энергии токийских улиц, вкуса настоящего саке и аромата цветущей сакуры
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
             Выбрать тур
