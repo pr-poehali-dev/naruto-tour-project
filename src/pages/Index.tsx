@@ -123,8 +123,8 @@ const Index = () => {
           </p>
 
           <div className="space-y-6 max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-6 items-center">
-              <div className="relative order-1">
+            <div className="grid md:grid-cols-2 gap-6 items-stretch">
+              <div className="relative order-1 flex items-stretch">
                 <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
                 <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
                 <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
@@ -147,24 +147,24 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-              <div className="order-2">
+              <div className="order-2 flex items-stretch">
                 <img 
                   src="https://cdn.poehali.dev/files/0f051605-3c91-4caf-b22d-a3cf1a03e207.jpg"
                   alt="Токио и Осака"
-                  className="w-full h-full object-cover rounded-lg shadow-2xl"
+                  className="w-full h-auto object-cover rounded-lg shadow-2xl"
                 />
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 items-center">
-              <div className="order-2 md:order-1">
+            <div className="grid md:grid-cols-2 gap-6 items-stretch">
+              <div className="order-2 md:order-1 flex items-stretch">
                 <img 
                   src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/5024cc90-00bd-410b-aa16-09f103714bda.jpg"
                   alt="Киото и Нара"
-                  className="w-full h-full object-cover rounded-lg shadow-2xl"
+                  className="w-full h-auto object-cover rounded-lg shadow-2xl"
                 />
               </div>
-              <div className="relative order-1 md:order-2">
+              <div className="relative order-1 md:order-2 flex items-stretch">
                 <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
                 <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
                 <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-4 md:p-6 relative overflow-hidden">
