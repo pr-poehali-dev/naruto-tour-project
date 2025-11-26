@@ -120,7 +120,7 @@ const Index = () => {
             Путешествие по всем граням Японии — от древних традиций до современной поп-культуры
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-12">
             <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
               <img 
                 src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/10f34054-bdc4-480a-9253-5209e1b8171b.jpg"
@@ -184,6 +184,171 @@ const Index = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
                 <span className="text-white text-sm font-semibold">Рамен</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/01941762-5024-4682-b456-b234cf6de091.jpg"
+                alt="Ночные бары"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Ночные бары</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/65dd0442-b22c-42a5-9466-1e5b54cb7595.jpg"
+                alt="Бейсбол"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Бейсбол</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/9ec2e4d3-ccf1-4489-aedc-f212ac9425ae.jpg"
+                alt="Традиционные деревни"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Традиционные деревни</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/b20adfb4-bd32-49f6-ac8a-45a3ee9230ff.jpg"
+                alt="Храмы"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Храмы</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/90a453a7-571c-440a-9b3a-cadcbd318cca.jpg"
+                alt="Луна-парки"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Луна-парки</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/7c997e9e-c40b-4167-9651-d48a47dc5520.jpg"
+                alt="Музеи"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Музеи</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/1672cf06-b7fc-4386-92fa-e1d633962071.jpg"
+                alt="Танцы одори"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Танцы одори</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/e4ea7122-05a9-4efa-a8b5-09506db4c8bb.jpg"
+                alt="Кимоно"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Кимоно</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/2bcbecfa-1c8b-402e-9fef-302bd0315694.jpg"
+                alt="Гейши"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Гейши</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/fcc51b81-e1be-4fe5-bb11-f0f824598796.jpg"
+                alt="Стейк Кобе"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Стейк Кобе</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/07dc2067-6575-47e7-82d4-0279df3c8b3a.jpg"
+                alt="Икебана"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Икебана</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/09bc5ef5-92b3-480e-af4c-91dbbf789700.jpg"
+                alt="Бонсай"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Бонсай</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/c223a118-5b6b-4a7d-8dbd-a2ee5a7e67d2.jpg"
+                alt="Самураи"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Самураи</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/8b9545dc-a995-464a-8944-2f53b114de2a.jpg"
+                alt="Караоке"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Караоке</span>
+              </div>
+            </div>
+
+            <div className="relative h-48 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/fd756af1-bcb7-4fdf-81c6-d2ee380e1e3f.jpg"
+                alt="Чайная церемония"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-3">
+                <span className="text-white text-sm font-semibold">Чайная церемония</span>
               </div>
             </div>
           </div>
