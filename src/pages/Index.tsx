@@ -52,7 +52,7 @@ const Index = () => {
             Это погружение, после которого мир уже не будет прежним.
           </p>
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
-            Ознакомиться с туром
+            Сделать первый шаг по Пути
             <Icon name="ArrowRight" size={20} className="ml-2" />
           </Button>
         </div>
