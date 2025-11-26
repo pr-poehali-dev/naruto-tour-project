@@ -23,7 +23,7 @@ const Index = () => {
           <div className="hidden md:flex gap-10">
             <a href="#home" className="text-background hover:text-primary transition-colors font-medium text-lg">Главная</a>
             <a href="#about" className="text-background hover:text-primary transition-colors font-medium text-lg">О нас</a>
-            <a href="#tours" className="text-background hover:text-primary transition-colors font-medium text-lg">Туры</a>
+            <a href="#tours" className="text-background hover:text-primary transition-colors font-medium text-lg">Ваш Путь</a>
             <a href="#contact" className="text-background hover:text-primary transition-colors font-medium text-lg">Контакты</a>
           </div>
           <Button variant="default" className="bg-primary hover:bg-primary/90 text-white px-6 py-3 text-base font-semibold shadow-lg">
