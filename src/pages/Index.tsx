@@ -264,7 +264,7 @@ const Index = () => {
 
             <div ref={(el) => (bannerRefs.current[1] = el)} className="relative w-full h-28 md:h-32 my-4 md:my-6 rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://cdn.poehali.dev/files/6883539c-56ed-4dea-a5cb-d86a5b9293e5.jpg"
+                src="https://cdn.poehali.dev/files/cdba4e1f-ca47-4f05-a867-2dbb489e4440.jpg"
                 alt="Святилище Фусими Инари"
                 className="w-full h-full object-cover object-center"
               />
