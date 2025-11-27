@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Icon from "@/components/ui/icon";
+import { useState } from "react";
 
 const DecorativeBackground = () => (
   <>
@@ -31,6 +32,8 @@ const DecorativeBackground = () => (
 );
 
 const Index = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-foreground/95 backdrop-blur-md shadow-lg">
@@ -52,10 +55,61 @@ const Index = () => {
             <a href="#tours" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Ваш Путь</a>
             <a href="#contact" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Контакты</a>
           </div>
-          <Button variant="default" className="bg-primary hover:bg-primary/90 text-white px-3 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold shadow-lg">
-            Заказать тур
-          </Button>
+          <div className="flex items-center gap-3">
+            <Button variant="default" className="hidden sm:block bg-primary hover:bg-primary/90 text-white px-3 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold shadow-lg">
+              Заказать тур
+            </Button>
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="lg:hidden text-background p-2 hover:text-primary transition-colors"
+              aria-label="Меню"
+            >
+              <Icon name={mobileMenuOpen ? "X" : "Menu"} size={24} />
+            </button>
+          </div>
         </div>
+
+        {mobileMenuOpen && (
+          <div className="lg:hidden bg-foreground/98 backdrop-blur-md border-t border-background/10 animate-fade-in">
+            <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
+              <a 
+                href="#home" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-background hover:text-primary transition-colors font-medium text-lg py-2"
+              >
+                Главная
+              </a>
+              <a 
+                href="#about" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-background hover:text-primary transition-colors font-medium text-lg py-2"
+              >
+                О нас
+              </a>
+              <a 
+                href="#tours" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-background hover:text-primary transition-colors font-medium text-lg py-2"
+              >
+                Ваш Путь
+              </a>
+              <a 
+                href="#contact" 
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-background hover:text-primary transition-colors font-medium text-lg py-2"
+              >
+                Контакты
+              </a>
+              <Button 
+                variant="default" 
+                className="bg-primary hover:bg-primary/90 text-white w-full py-3 text-base font-semibold shadow-lg mt-2"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Заказать тур
+              </Button>
+            </div>
+          </div>
+        )}
       </nav>
 
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-0">
