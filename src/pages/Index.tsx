@@ -331,6 +331,30 @@ const Index = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
+
+            <div className="text-center mt-12 md:mt-16 space-y-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary" style={{ fontFamily: 'Cormorant, serif' }}>
+                Ваш Путь ждёт своего начала
+              </h2>
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+                <a 
+                  href="#contact"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold text-lg"
+                >
+                  <Icon name="Send" size={20} />
+                  Начать свой Путь
+                </a>
+                
+                <a 
+                  href="#tours"
+                  className="inline-flex items-center gap-2 px-8 py-4 bg-secondary text-foreground border-2 border-primary/30 rounded-lg hover:bg-secondary/80 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-xl font-semibold text-lg"
+                >
+                  <Icon name="ScrollText" size={20} />
+                  Прочесть полный свиток
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
