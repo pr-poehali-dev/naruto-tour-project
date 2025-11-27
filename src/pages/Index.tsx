@@ -221,7 +221,7 @@ const Index = () => {
                     <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Первый</h3>
                     <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">ЭНЕРГИЯ</div>
                     <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Лабиринты, где рождается завтра</p>
-                    <p className="text-sm text-accent/70 mb-4">(Токио & Осака)</p>
+                    <p className="text-sm text-primary/80 mb-4">(Токио & Осака)</p>
                     <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Первый ключ — это смелость принять будущее. Вы не просто увидите неоновые каньоны Токио и бьющую через край жизненную силу Осаки — вы научитесь слышать их ритм и находить тишину в самом сердце этого гула. Мы проведём вас по следам создателей современной Японии: от секретных баров в небоскребах, где заключаются многомиллионные сделки, до аутентичных закусочных в подворотнях Дотонбори, где рождаются новые гастрономические тренды. Это посвящение в дерзость и искусство понимать страну через пульс её самых динамичных городов.
                     </p>
@@ -252,7 +252,7 @@ const Index = () => {
                     <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Второй</h3>
                     <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">СЕРДЦЕ</div>
                     <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Шёпот храмов и безмолвный поклон оленей</p>
-                    <p className="text-sm text-accent/70 mb-4">(Киото & Нара)</p>
+                    <p className="text-sm text-primary/80 mb-4">(Киото & Нара)</p>
                     <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Второй ключ — это встреча с душой древней Японии. В Киото, за высокими стенами, тень от сосны на стене чайного домика расскажет вам больше, чем целая книга. Вы станете гостем на частной церемонии у мастера, чья семья хранит это искусство веками. А в Наре вас ждёт диалог с самим временем — в парке Касуга, где священные олени, словно хранители этого места, почтительно склоняют головы в немом поклоне, принимая угощение. Это посвящение в благоговение, где вы поймёте, что истинная красота — в безмолвном диалоге между человеком, природой и вечностью.
                     </p>
@@ -283,7 +283,7 @@ const Index = () => {
                     <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Третий</h3>
                     <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">СТИХИЯ</div>
                     <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Шепот сада, вкус моря и душа саке</p>
-                    <p className="text-sm text-accent/70 mb-4">(Альпийские деревушки, Каназава, побережье Японского моря)</p>
+                    <p className="text-sm text-primary/80 mb-4">(Альпийские деревушки, Каназава, побережье Японского моря)</p>
                     <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Третий ключ — это погружение в стихию японской гармонии, где природа, искусство и человек становятся единым целым. В Каназаве вы войдете в сад Кэнроку-эн на рассвете, когда его туманные пейзажи принадлежат только вам. Здесь игра света сквозь клены становится разговором с вечностью. Вы спуститесь в каменные погреба, где в тишине рождается сакэ, и вкусите дух этой земли — терруар горных источников и рисовых полей. А уснете под шум Японского моря — древнюю колыбельную для рыбаков, чей улов на рассвете еще пахнет океанской свежестью. Это посвящение в вечную мудрость, где простота оказывается самой большой глубиной.
                     </p>
@@ -314,7 +314,7 @@ const Index = () => {
                     <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Четвёртый</h3>
                     <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">ВЕЧНОСТЬ</div>
                     <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Дыхание земли и шепот веков</p>
-                    <p className="text-sm text-accent/70 mb-4">(Фудзияма, Хаконе, Камакура)</p>
+                    <p className="text-sm text-primary/80 mb-4">(Фудзияма, Хаконе, Камакура)</p>
                     <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Финальное посвящение — это встреча с самой сутью Японии. У подножия Фудзи вы ощутите благоговейную тишину, которую дарит её вечный лик. В долине Овакудани вы станете свидетелем дыхания спящего дракона — серные гейзеры напомнят о неукротимой мощи, что таится в недрах этой земли. Вы погрузитесь в воды онсена, где огонь земли и вода неба сливаются воедино. А в Камакуре, в тени великого Дайбуцу, вы откроете, как японское искусство рождается в самом сердце природы и веры. Это посвящение в гармонию между незыблемым и мимолетным, что навсегда изменяет душу.
                     </p>
