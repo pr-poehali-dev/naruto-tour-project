@@ -72,7 +72,7 @@ const Index = () => {
           <div className="hidden lg:flex gap-6 xl:gap-10">
             <a href="#home" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Главная</a>
             <a href="#about" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">О нас</a>
-            <a href="#tours" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Ваш Путь</a>
+            <a href="#path" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Ваш Путь</a>
             <a href="#contact" className="text-background hover:text-primary transition-colors font-medium text-base xl:text-lg">Контакты</a>
           </div>
           <div className="flex items-center gap-3">
@@ -107,7 +107,7 @@ const Index = () => {
                 О нас
               </a>
               <a 
-                href="#tours" 
+                href="#path" 
                 onClick={() => setMobileMenuOpen(false)}
                 className="text-background hover:text-primary transition-colors font-medium text-lg py-2"
               >
