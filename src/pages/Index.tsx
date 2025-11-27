@@ -168,6 +168,8 @@ const Index = () => {
         <div className="container mx-auto max-w-7xl relative z-10">
           <div className="flex flex-col gap-6 md:gap-8">
             <div className="animate-fade-in">
+              <br />
+              <br />
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-foreground leading-tight text-center">
                 Japan: ДА — это не только путешествие. Это ответ.
               </h2>
