@@ -330,7 +330,7 @@ const Index = () => {
 
             <div ref={(el) => (bannerRefs.current[3] = el)} className="relative w-full h-28 md:h-32 my-4 md:my-6 rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/f2b6b200-761c-4f30-b244-7317807cbfc8.jpg"
+                src="https://cdn.poehali.dev/files/99cdbe1d-6c5c-49c8-98b4-ae3956803345.jpg"
                 alt="Фудзияма с сакурой"
                 className="w-full h-full object-cover object-center"
               />
