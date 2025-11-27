@@ -238,15 +238,6 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
 
-            <div ref={(el) => (bannerRefs.current[1] = el)} className="relative w-full h-28 md:h-32 my-4 md:my-6 rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/acfabe16-3ed9-4a80-bf0f-746fcd3f90de.jpg"
-                alt="Ворота тории на закате"
-                className="w-full h-full object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
-            </div>
-
             <div className="relative">
               <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
               <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
@@ -269,6 +260,15 @@ const Index = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div ref={(el) => (bannerRefs.current[1] = el)} className="relative w-full h-28 md:h-32 my-4 md:my-6 rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/files/6883539c-56ed-4dea-a5cb-d86a5b9293e5.jpg"
+                alt="Святилище Фусими Инари"
+                className="w-full h-full object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
 
             <div className="relative">
