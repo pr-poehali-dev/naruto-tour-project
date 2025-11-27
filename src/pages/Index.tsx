@@ -207,24 +207,22 @@ const Index = () => {
             Наше путешествие — это и есть ваш личный Мити. Путь, состоящий из четырёх свитков, где вы не просто увидите Японию, а пройдете через её сердце, стихии и дух, чтобы обрести новый взгляд на мир и на себя.
           </p>
 
-          <div className="space-y-6 max-w-6xl mx-auto">
-            <div className="relative">
-              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-3 md:p-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex flex-col md:flex-row items-start gap-3 md:gap-4 relative z-10">
+          <div className="space-y-8 md:space-y-12 max-w-6xl mx-auto">
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/5 rounded-2xl transform group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="relative bg-background/80 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-accent/20 transition-all duration-500">
+                <div className="flex items-start gap-4 md:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-xl md:text-3xl font-bold text-primary">一</span>
+                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                      <span className="text-3xl md:text-4xl font-bold text-white">一</span>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-1 text-primary">Свиток Первый: ЭНЕРГИЯ</h3>
-                    <p className="text-sm md:text-base lg:text-lg font-semibold mb-2 text-foreground">Лабиринты, где рождается завтра</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground mb-2 italic">(Токио & Осака)</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground leading-relaxed">
+                  <div className="flex-1 pt-1">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Первый</h3>
+                    <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">ЭНЕРГИЯ</div>
+                    <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Лабиринты, где рождается завтра</p>
+                    <p className="text-sm text-accent/70 mb-4">(Токио & Осака)</p>
+                    <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Первый ключ — это смелость принять будущее. Вы не просто увидите неоновые каньоны Токио и бьющую через край жизненную силу Осаки — вы научитесь слышать их ритм и находить тишину в самом сердце этого гула. Мы проведём вас по следам создателей современной Японии: от секретных баров в небоскребах, где заключаются многомиллионные сделки, до аутентичных закусочных в подворотнях Дотонбори, где рождаются новые гастрономические тренды. Это посвящение в дерзость и искусство понимать страну через пульс её самых динамичных городов.
                     </p>
                   </div>
@@ -241,23 +239,21 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-3 md:p-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex flex-col md:flex-row items-start gap-3 md:gap-4 relative z-10">
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/5 rounded-2xl transform group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="relative bg-background/80 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-accent/20 transition-all duration-500">
+                <div className="flex items-start gap-4 md:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-xl md:text-3xl font-bold text-primary">二</span>
+                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                      <span className="text-3xl md:text-4xl font-bold text-white">二</span>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-1 text-primary">Свиток Второй: СЕРДЦЕ</h3>
-                    <p className="text-sm md:text-base lg:text-lg font-semibold mb-2 text-foreground">Шёпот храмов и безмолвный поклон оленей</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground mb-2 italic">(Киото & Нара)</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground leading-relaxed">
+                  <div className="flex-1 pt-1">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Второй</h3>
+                    <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">СЕРДЦЕ</div>
+                    <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Шёпот храмов и безмолвный поклон оленей</p>
+                    <p className="text-sm text-accent/70 mb-4">(Киото & Нара)</p>
+                    <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Второй ключ — это встреча с душой древней Японии. В Киото, за высокими стенами, тень от сосны на стене чайного домика расскажет вам больше, чем целая книга. Вы станете гостем на частной церемонии у мастера, чья семья хранит это искусство веками. А в Наре вас ждёт диалог с самим временем — в парке Касуга, где священные олени, словно хранители этого места, почтительно склоняют головы в немом поклоне, принимая угощение. Это посвящение в благоговение, где вы поймёте, что истинная красота — в безмолвном диалоге между человеком, природой и вечностью.
                     </p>
                   </div>
@@ -274,23 +270,21 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-3 md:p-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex flex-col md:flex-row items-start gap-3 md:gap-4 relative z-10">
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/5 rounded-2xl transform group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="relative bg-background/80 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-accent/20 transition-all duration-500">
+                <div className="flex items-start gap-4 md:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-xl md:text-3xl font-bold text-primary">三</span>
+                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                      <span className="text-3xl md:text-4xl font-bold text-white">三</span>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-1 text-primary">Свиток Третий: СТИХИЯ</h3>
-                    <p className="text-sm md:text-base lg:text-lg font-semibold mb-2 text-foreground">Шепот сада, вкус моря и душа саке</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground mb-2 italic">(Альпийские деревушки, Каназава, побережье Японского моря)</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground leading-relaxed">
+                  <div className="flex-1 pt-1">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Третий</h3>
+                    <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">СТИХИЯ</div>
+                    <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Шепот сада, вкус моря и душа саке</p>
+                    <p className="text-sm text-accent/70 mb-4">(Альпийские деревушки, Каназава, побережье Японского моря)</p>
+                    <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Третий ключ — это погружение в стихию японской гармонии, где природа, искусство и человек становятся единым целым. В Каназаве вы войдете в сад Кэнроку-эн на рассвете, когда его туманные пейзажи принадлежат только вам. Здесь игра света сквозь клены становится разговором с вечностью. Вы спуститесь в каменные погреба, где в тишине рождается сакэ, и вкусите дух этой земли — терруар горных источников и рисовых полей. А уснете под шум Японского моря — древнюю колыбельную для рыбаков, чей улов на рассвете еще пахнет океанской свежестью. Это посвящение в вечную мудрость, где простота оказывается самой большой глубиной.
                     </p>
                   </div>
@@ -307,23 +301,21 @@ const Index = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
-              <div className="bg-gradient-to-br from-background via-secondary/20 to-background border-2 md:border-3 border-accent/30 rounded-lg shadow-xl p-3 md:p-6 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="absolute bottom-0 left-0 w-full h-1 md:h-1.5 bg-gradient-to-r from-transparent via-accent/40 to-transparent"></div>
-                <div className="flex flex-col md:flex-row items-start gap-3 md:gap-4 relative z-10">
+            <div className="group relative">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-accent/5 to-primary/5 rounded-2xl transform group-hover:scale-105 transition-transform duration-500"></div>
+              <div className="relative bg-background/80 backdrop-blur-sm border border-accent/20 rounded-2xl p-6 md:p-8 shadow-2xl hover:shadow-accent/20 transition-all duration-500">
+                <div className="flex items-start gap-4 md:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 md:w-16 md:h-16 bg-primary/10 rounded-full flex items-center justify-center border-2 border-primary/30">
-                      <span className="text-xl md:text-3xl font-bold text-primary">四</span>
+                    <div className="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center shadow-lg transform group-hover:rotate-12 transition-transform duration-500">
+                      <span className="text-3xl md:text-4xl font-bold text-white">四</span>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg md:text-xl lg:text-2xl font-bold mb-1 text-primary">Свиток Четвертый: СТИХИЯ</h3>
-                    <p className="text-sm md:text-base lg:text-lg font-semibold mb-2 text-foreground">Дыхание земли и шепот веков</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground mb-2 italic">(Фудзияма, Хаконе, Камакура)</p>
-                    <p className="text-xs md:text-sm lg:text-base text-muted-foreground leading-relaxed">
+                  <div className="flex-1 pt-1">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-2 text-primary" style={{ fontFamily: 'Cormorant, serif' }}>Свиток Четвёртый</h3>
+                    <div className="text-xl md:text-2xl font-semibold mb-1 text-foreground tracking-wide">ВЕЧНОСТЬ</div>
+                    <p className="text-base md:text-lg font-medium mb-3 text-muted-foreground italic">Дыхание земли и шепот веков</p>
+                    <p className="text-sm text-accent/70 mb-4">(Фудзияма, Хаконе, Камакура)</p>
+                    <p className="text-sm md:text-base text-muted-foreground/90 leading-relaxed">
                       Финальное посвящение — это встреча с самой сутью Японии. У подножия Фудзи вы ощутите благоговейную тишину, которую дарит её вечный лик. В долине Овакудани вы станете свидетелем дыхания спящего дракона — серные гейзеры напомнят о неукротимой мощи, что таится в недрах этой земли. Вы погрузитесь в воды онсена, где огонь земли и вода неба сливаются воедино. А в Камакуре, в тени великого Дайбуцу, вы откроете, как японское искусство рождается в самом сердце природы и веры. Это посвящение в гармонию между незыблемым и мимолетным, что навсегда изменяет душу.
                     </p>
                   </div>
