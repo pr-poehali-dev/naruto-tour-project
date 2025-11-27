@@ -260,6 +260,15 @@ const Index = () => {
               </div>
             </div>
 
+            <div className="relative w-full h-20 md:h-24 my-4 md:my-6 rounded-lg overflow-hidden shadow-xl">
+              <img 
+                src="https://cdn.poehali.dev/projects/c4212dcd-652d-4010-aca8-ce0bf3b0da2c/files/2095e00c-2a43-4993-9423-73cca93c2f29.jpg"
+                alt="Храмы и олени"
+                className="w-full h-full object-cover object-center"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/30"></div>
+            </div>
+
             <div className="relative">
               <div className="absolute -left-2 md:-left-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
               <div className="absolute -right-2 md:-right-3 top-0 bottom-0 w-1 md:w-1.5 bg-gradient-to-b from-accent/60 via-accent to-accent/60 rounded-full"></div>
